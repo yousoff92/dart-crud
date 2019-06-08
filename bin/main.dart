@@ -4,6 +4,21 @@ import 'dart:io';
 
 List<Item> items;
 
+
+/**
+ * Sample command-line project for Dart CRUD application. 
+ * 
+ * Created using pub global activate stagehand > console application
+ * 
+ * Ref :
+ * 1. https://dart.academy/writing-command-line-utilities-with-dart/
+ * 2. https://medium.com/@asamu.a.adebayo/setting-up-visual-studio-code-for-dart-development-on-windows-bc96254fcff1
+ * 3. https://api.dartlang.org/stable/2.3.1/dart-io/File-class.html	
+ * 4. https://itnext.io/learn-dart-5-read-and-write-files-in-under-30-seconds-9adbf9351ef2
+ * 5. https://www.reddit.com/r/dartlang/comments/af9grq/take_user_input/
+ * 6. https://medium.com/@ayushpguptaapg/demystifying-and-hashcode-in-dart-2f328d1ab1bc
+ * 
+ */
 main(List<String> arguments) {
   print('[Main] Started..');
   var optionFilepath =
